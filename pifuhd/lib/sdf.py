@@ -23,6 +23,8 @@ SOFTWARE.
 '''
 import numpy as np
 
+# Ale
+np.bool = np.bool_
 
 def create_grid(resX, resY, resZ, b_min=np.array([-1, -1, -1]), b_max=np.array([1, 1, 1]), transform=None):
     '''
